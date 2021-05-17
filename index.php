@@ -21,9 +21,11 @@
 <div class="container">
   <div class="row"> 
     <div id="navbar">
-      <a class="active" href="#">Home</a>
-      <a href="#">News</a>
-      <a href="https://www.facebook.com/">Contact</a> 
+      <a class="active" href="#">Strona główna</a>
+      <a href="#">Aktualności</a>      
+      <a href="#">Albumy</a> 
+      <a href="#">Trasa</a> 
+      <a href="https://www.facebook.com/">Kontakt</a> 
     </div>
     <div class="col-sm-4 zdjecie">
       <h3>Okładka albumu</h3>

@@ -35,21 +35,26 @@ h1
     text-align: center;
 }
 
-
-
-
-  .header {
+.header 
+{
     background-color: #f1f1f1;
     padding: 30px;
     text-align: center;
-  }
-  
-  #navbar {
+}
+
+
+
+
+
+/*Tutaj zaczyna się menu*/
+#navbar 
+{
     overflow: hidden;
     background-color: #333;
-  }
+}
   
-  #navbar a {
+#navbar a 
+{
     float: left;
     display: block;
     color: #f2f2f2;
@@ -57,28 +62,34 @@ h1
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
-  #navbar a:hover {
+#navbar a:hover 
+{
     background-color: #ddd;
     color: black;
-  }
+}
   
-  #navbar a.active {
+#navbar a.active 
+{
     background-color: #04AA6D;
     color: white;
-  }
+}
   
-  .content {
+.content 
+{
     padding: 16px;
-  }
+}
   
-  .sticky {
+.sticky 
+{
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
   
-  .sticky + .content {
+.sticky + .content 
+{
     padding-top: 60px;
-  }
+}
+/*Tutaj kończy się menu*/
