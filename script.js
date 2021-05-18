@@ -1,5 +1,5 @@
 function getTime()
-    {
+{
     var data = new Date();
 
     var dni=data.getDate();
