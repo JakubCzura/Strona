@@ -43,7 +43,7 @@
     założyciel i lider zespołu. Album zajął czwarte miejsce na krajowych listach przebojów. </p>            
     </div>
     <div class="col-sm-4 photo">             
-      <img src="graphics/1.JPG" alt="iron maiden album" width="400">
+      <img src="graphics/1.JPG" alt="iron maiden album" style="width:100%; height:auto;">
     </div>
     <div class="col-sm-4 photo">
     <ul class="list">
