@@ -10,15 +10,18 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  -->
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
   <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+  <script src="script.js"></script>
 </head>
-<body class="body">
+
+<body class="body" onload="getTime()">
 
 <div class="jumbotron-text-center">
-  <h1>Strona dla fanów muzyki</h1>
-  <p>Prezentujemy albumy Iron Maiden!</p> 
+  <h1>Witaj na stronie fanów Iron Maiden</h1>
+  <p>Zapraszamy do lektury i posłuchania ich piosenek</p> 
 </div>
   
 <div class="container">
+  <div id="currentTime"></div>
   <div class="row"> 
     <div id="navbar">
       <a class="active" href="index.php">Strona główna</a>
@@ -27,103 +30,40 @@
       <a href="tours.php">Trasa</a> 
       <a href="https://www.facebook.com/">Kontakt</a> 
     </div>
-    <div class="col-sm-4 zdjecie">
+    <div class="col-sm-4 photo">
       <h3>Iron Maiden</h3>
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>        
-      <a href="iron.php"> <img src="graphics/1.JPG" alt="iron maiden first album" width="200"> </a>
+      <p>Iron Maiden – debiutancki album brytyjskiego zespołu wydany 14 kwietnia 1980 roku.
+    Większość utworów została skomponowana przez lidera Steve Harrisa, wyjątki stanowią Remember Tomorrow i Running Free napisane 
+    wspólnie z wokalistą Paulem Di'Anno oraz Charlotte the Harlot - samotna kompozycją gitarzysty Dave Murraya. 
+    Płyta zyskała dużą popularność do tracącego już popularność punku oraz zespołów rockowych i blues 
+    rockowych z lat 70. Zespół odrzucił elementy bluesa na rzecz szybszych i bardziej skomplikowanych kompozycji z lekkim punkowym 
+    wokalem za sprawą obecnego wtedy wokalisty, stając się najpopularniejszym zespołem z nowego nurtu muzycznego w Wielkiej Brytanii
+    jakim był New Wave of British Heavy Metal. Sam lider określał styl jako heavy rock.
+    Wadą albumu jest pozostawiająca sobie nieco do życzenia produkcja, o czym do dziś wspomina sam Steve Harris –
+    założyciel i lider zespołu. Album zajął czwarte miejsce na krajowych listach przebojów. </p>            
     </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Killers</h3>  
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>        
-      <img src="graphics/2.JPG" alt="iron maiden first album" width="200"> 
+    <div class="col-sm-4 photo">             
+      <img src="graphics/1.JPG" alt="iron maiden album" width="400">
     </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>The Number of the beast</h3> 
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p> 
-      <img src="graphics/3.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Piece of Mind</h3> 
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>         
-      <img src="graphics/4.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Powerslave</h3>
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>          
-      <img src="graphics/5.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Somewhere in Time</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/6.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Seventh Son of a Seventh Son</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/7.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>No Prayer for the Dying</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/8.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Fear of the Dark</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/9.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>The X Factor</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/10.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>Virtual XI</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/11.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>Brave new World</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/12.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>Dance of Death</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/13.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>A Matter of Life and Death</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/14.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>The Final Frontier</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/15.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>The Book of Souls</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/16.JPG" alt="iron maiden first album" width="200"> 
-    </div>
+    <div class="col-sm-4 photo">
+    <ul class="list">
+      <li> <h3>Media społecznościowe</h3>          
+            <a href="https://www.facebook.com/ironmaiden"> <img src="graphics/facebook.jpg" alt="facebook" width="50" height="50"/> </a> <br/>
+            <a href="https://www.youtube.com/channel/UCaisXKBdNOYqGr2qOXCLchQ"> <img src="graphics/youtube2.jpg" alt="youtube" width="50" height="50"/> </a> <br/>
+            <a href="https://www.instagram.com/ironmaiden/?hl=pl"> <img src="graphics/instagram2.jpg" alt="instagram" width="50" height="50"/> </a>
+      </li>
+      <li> <h3>Strona zespołu</h3> <a href="https://ironmaiden.com"> <img src="graphics/stronaglowna.jpg" alt="strona zespołu" width="200" height="45" /> </a> </li>
+      <li> <h3>Strona z biletami</h3> <a href="https://www.ebilet.pl"> <img src="graphics/ebilet.jpg" alt="e bilet" width="200" height="45" /> </a> </li>
+    </ul> 
+    </div>   
   </div>
+  <div class="youtubeLink">
+    <h2> Link do posłuchania w YouTube:
+      <br/>
+      <a href="https://www.youtube.com/watch?v=7DcVwd31uC0&list=OLAK5uy_misJV8zMkwu8-oBoebFKPsdE_LDrdq-xA " target="_blank" title="Kliknij, by otworzyć w YouTube">  
+      <img src="graphics/youtube.jpg" alt="link do youtube'a" width=300 height=50 /> </a> <!-- target="blank" otwiera w nowym oknie -->
+    </h2>
+  </div>  
 </div>
 
 <div class="footer">
