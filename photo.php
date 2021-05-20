@@ -35,9 +35,9 @@
 
     <div id="gallery">
     <div id="mainPhoto">
-        <img src="graphics/1.jpg" class="big" style="width:100%; height:auto;" />
+        <img src="graphics/1.jpg" class="big" style="width:50%; height:auto;" />
     </div>
-    <div>
+    <div >
         <a href="#" rel="graphics/1.jpg" class="galImg"> <img src="graphics/1.jpg" class="mini"/> </a>
         <a href="#" rel="graphics/2.jpg" class="galImg"> <img src="graphics/2.jpg" class="mini"/> </a>
         <a href="#" rel="graphics/3.jpg" class="galImg"> <img src="graphics/3.jpg" class="mini"/> </a>
