@@ -139,3 +139,32 @@ ul li
 }
 /*Tutaj kończy się menu*/
 
+
+
+
+/*Tutaj zaczyna się galeria zdjęć*/
+#gallery
+{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+#mainPhoto
+{
+height: 600px;
+height: 400px;
+margin: 10px;
+}
+.mini
+{
+width: 200px;
+float: left;
+height: 133px;
+}
+.big
+{
+height: 400px;
+margin: 1px;
+width: 600px;
+}
+/*Tutaj kończy się galeria zdjęć*/

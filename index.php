@@ -28,6 +28,7 @@
       <a href="news.php">Aktualności</a>      
       <a href="albums.php">Albumy</a> 
       <a href="tours.php">Trasa</a> 
+      <a href="photo.php">Galeria zdjęć</a> 
       <a href="https://www.facebook.com/">Kontakt</a> 
     </div>
     <div class="col-sm-4 photo">

@@ -1,3 +1,4 @@
+/*Funkcja zegarka*/
 function getTime()
 {
     var data = new Date();
@@ -35,3 +36,22 @@ function getTime()
 
     setTimeout("getTime()",1000); /* wywoływanie funkcji co 1000 milisekund */
 }
+/*Funkcja zegarka*/
+
+
+/*Tutaj zaczyna się galeria zdjęć*/
+
+$(document).ready(function()
+{
+    $(".galImg").click(function()
+    {
+        var photo = $(this).attr("rel");
+        $('#mainPhoto').fadeOut('slow',function()
+        {
+            $("img.big").attr('src',photo);
+            $('#mainPhoto').fadeIn('slow');
+        });
+    });
+});
+
+/*Tutaj kończy się galeria zdjęć*/
