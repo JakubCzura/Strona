@@ -26,28 +26,30 @@
     <div id="currentTime"></div>
     <div class="row"> 
         <div id="navbar">
-            <a class="active" href="index.php">Strona główna</a>
-            <a href="news.php">Aktualności</a>      
-            <a href="albums.php">Albumy</a> 
-            <a href="tours.php">Trasa</a> 
-            <a href="https://www.facebook.com/">Kontakt</a> 
+        <a class="active" href="index.php">Strona główna</a>
+      <a href="news.php">Aktualności</a>      
+      <a href="albums.php">Albumy</a> 
+      <a href="tours.php">Trasa</a> 
+      <a href="photo.php">Galeria zdjęć</a> 
+      <a href="https://www.facebook.com/">Kontakt</a> 
         </div>
         <div class="col-sm-6 photo">
             <div>
-                <a href="#" rel="graphics/1.jpg" class="galImg"> <img src="graphics/1.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/2.jpg" class="galImg"> <img src="graphics/2.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/3.jpg" class="galImg"> <img src="graphics/3.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/4.jpg" class="galImg"> <img src="graphics/4.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/5.jpg" class="galImg"> <img src="graphics/5.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/6.jpg" class="galImg"> <img src="graphics/6.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/acesHigh.jpg" class="galImg"> <img src="graphics/acesHigh.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Band1982.jpg" class="galImg"> <img src="graphics/Band1982.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/BruceOnStage.jpg" class="galImg"> <img src="graphics/BruceOnStage.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/IronMaidenSklad.jpg" class="galImg"> <img src="graphics/IronMaidenSklad.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Janek.jpg" class="galImg"> <img src="graphics/Janek.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Steve.jpg" class="galImg"> <img src="graphics/Steve.jpg" class="mini"/> </a>
                 <a href="#" rel="graphics/Adrian.jpg" class="galImg"> <img src="graphics/Adrian.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/8.jpg" class="galImg"> <img src="graphics/8.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/8.jpg" class="galImg"> <img src="graphics/8.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/tourPhoto.jpg" class="galImg"> <img src="graphics/tourPhoto.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/plane.jpg" class="galImg"> <img src="graphics/plane.jpg" class="mini"/> </a>
                 <a href="#" rel="graphics/Bruce.jpg" class="galImg"> <img src="graphics/Bruce.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/8.jpg" class="galImg"> <img src="graphics/8.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/bandTour.jpg" class="galImg"> <img src="graphics/bandTour.jpg" class="mini"/> </a>
                 <a href="#" rel="graphics/Nicko.jpg" class="galImg"> <img src="graphics/Nicko.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/8.jpg" class="galImg"> <img src="graphics/8.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/concert.jpg" class="galImg"> <img src="graphics/concert.jpg" class="mini"/> </a>
                 <a href="#" rel="graphics/Dave.jpg" class="galImg"> <img src="graphics/Dave.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/BruceSinging.jpg" class="galImg"> <img src="graphics/BruceSinging.jpg" class="mini"/> </a>
             </div>          
         </div>
         <div class="col-sm-6 photo">             
@@ -56,13 +58,7 @@
             </div>
         </div>      
     </div>
-    <div class="youtubeLink">
-        <h2> Link do posłuchania w YouTube:
-        <br/>
-        <a href="https://www.youtube.com/watch?v=7DcVwd31uC0&list=OLAK5uy_misJV8zMkwu8-oBoebFKPsdE_LDrdq-xA " target="_blank" title="Kliknij, by otworzyć w YouTube">  
-        <img src="graphics/youtube.jpg" alt="link do youtube'a" width=300 height=50 /> </a> <!-- target="blank" otwiera w nowym oknie -->
-        </h2>
-    </div>  
+    
 </div>
 
 <div class="footer">
