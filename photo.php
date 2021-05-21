@@ -25,14 +25,14 @@
 <div class="container">
     <div id="currentTime"></div>
     <div class="row"> 
-        <div id="navbar">
-        <a class="active" href="index.php">Strona główna</a>
+      <div id="navbar">
+      <a class="active" href="index.php">Strona główna</a>
       <a href="news.php">Aktualności</a>      
       <a href="albums.php">Albumy</a> 
       <a href="tours.php">Trasa</a> 
       <a href="photo.php">Galeria zdjęć</a> 
       <a href="https://www.facebook.com/">Kontakt</a> 
-        </div>
+      </div>
         <div class="col-sm-6 photo">
             <div>
                 <a href="#" rel="graphics/acesHigh.jpg" class="galImg"> <img src="graphics/acesHigh.jpg" class="mini"/> </a>

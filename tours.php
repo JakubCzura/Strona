@@ -25,21 +25,19 @@
 <div class="container">
     <div id="currentTime"></div>
     <div class="row"> 
-        <div id="navbar">
-        <a class="active" href="index.php">Strona główna</a>
+      <div id="navbar">
+      <a class="active" href="index.php">Strona główna</a>
       <a href="news.php">Aktualności</a>      
       <a href="albums.php">Albumy</a> 
       <a href="tours.php">Trasa</a> 
       <a href="photo.php">Galeria zdjęć</a> 
       <a href="https://www.facebook.com/">Kontakt</a> 
-        </div>
+      </div>
         <div class="col-sm-6 photo">
             <div>
             <h2>Iron Maiden wyrusza w trasę!</h2>
-            <h4>Nie przegapcie okazji na niezapomniany koncert!</h4>
-            
+            <h4>Nie przegapcie okazji na niezapomniany koncert!</h4>           
                 <p>2022 LEGACY OF THE BEAST TOUR:</p>
-
                 <p>Czerwiec 04 - Finland Hyvinkää Rockfest</p>
                 <p>Czerwiec 11 - UK Donington Download Festival</p> 
                 <p>Czerwiec 13 - N.Ire Belfast Ormeau Park Belsonic Festival</p>
@@ -50,7 +48,6 @@
                 <p>Czerwiec 26 - France Paris La Defense Arena</p>
                 <p>Czerwiec 27 - Netherlands Arnhem Gelredome</p>
                 <p>Czerwiec 30 - Switzerland Zurich Hallenstadion </p>
-
                 <p>Lipiec 02 - Germany Cologne Rhein-Energie-Stadium </p>
                 <p>Lipiec 04 - Germany Berlin Waldbühne)</p>
                 <p>Lipiec 07 - Italy Bologna Sonic Park</p>
@@ -61,8 +58,7 @@
                 <p>Lipiec 24 - Poland Warsaw PGE Narodowy</p>
                 <p>Lipiec 26 - Germany Frankfurt Deutsche Bank Park</p>
                 <p>Lipiec 29 - Spain Barcelona Olympic Stadium</p>
-                <p>Lipiec 31 - Portugal Lisbon Estadio Nacional</p>
-              
+                <p>Lipiec 31 - Portugal Lisbon Estadio Nacional</p>             
             </div>          
         </div>
         <div class="col-sm-6 photo">             

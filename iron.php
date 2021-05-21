@@ -23,13 +23,14 @@
 <div class="container">
   <div id="currentTime"></div>
   <div class="row"> 
-    <div id="navbar">
+      <div id="navbar">
       <a class="active" href="index.php">Strona główna</a>
       <a href="news.php">Aktualności</a>      
       <a href="albums.php">Albumy</a> 
       <a href="tours.php">Trasa</a> 
+      <a href="photo.php">Galeria zdjęć</a> 
       <a href="https://www.facebook.com/">Kontakt</a> 
-    </div>
+      </div>
     <div class="col-sm-4 photo">
       <h3>Iron Maiden</h3>
       <p>Iron Maiden – debiutancki album brytyjskiego zespołu wydany 14 kwietnia 1980 roku.
