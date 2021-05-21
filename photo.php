@@ -26,12 +26,12 @@
     <div id="currentTime"></div>
     <div class="row"> 
         <div id="navbar">
-        <a class="active" href="index.php">Strona główna</a>
-      <a href="news.php">Aktualności</a>      
-      <a href="albums.php">Albumy</a> 
-      <a href="tours.php">Trasa</a> 
-      <a href="photo.php">Galeria zdjęć</a> 
-      <a href="https://www.facebook.com/">Kontakt</a> 
+          <a class="active" href="index.php">Strona główna</a>
+          <a href="news.php">Aktualności</a>      
+          <a href="albums.php">Albumy</a> 
+          <a href="tours.php">Trasa</a> 
+          <a href="photo.php">Galeria zdjęć</a> 
+          <a href="https://www.facebook.com/">Kontakt</a> 
         </div>
         <div class="col-sm-6 photo">
             <div>
@@ -57,8 +57,7 @@
                 <img src="graphics/1.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" />
             </div>
         </div>      
-    </div>
-    
+    </div>   
 </div>
 
 <div class="footer">
