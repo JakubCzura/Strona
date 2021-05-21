@@ -125,7 +125,7 @@
     </div>
   </div>
 </div>
-
+ 
 <div class="footer">
   <footer id="foot">
     <?php echo "Dziękujemy za odwiedziny" ?>

@@ -23,46 +23,42 @@
 </div>
   
 <div class="container">
-  <div id="currentTime"></div>
-  <div class="row"> 
-    <div id="navbar">
-      <a class="active" href="index.php">Strona główna</a>
+    <div id="currentTime"></div>
+    <div class="row"> 
+        <div id="navbar">
+        <a class="active" href="index.php">Strona główna</a>
       <a href="news.php">Aktualności</a>      
       <a href="albums.php">Albumy</a> 
       <a href="tours.php">Trasa</a> 
+      <a href="photo.php">Galeria zdjęć</a> 
       <a href="https://www.facebook.com/">Kontakt</a> 
+        </div>
+        <div class="col-sm-6 photo">
+            <div>
+                <a href="#" rel="graphics/acesHigh.jpg" class="galImg"> <img src="graphics/acesHigh.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Band1982.jpg" class="galImg"> <img src="graphics/Band1982.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/BruceOnStage.jpg" class="galImg"> <img src="graphics/BruceOnStage.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/IronMaidenSklad.jpg" class="galImg"> <img src="graphics/IronMaidenSklad.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Janek.jpg" class="galImg"> <img src="graphics/Janek.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Steve.jpg" class="galImg"> <img src="graphics/Steve.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Adrian.jpg" class="galImg"> <img src="graphics/Adrian.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/tourPhoto.jpg" class="galImg"> <img src="graphics/tourPhoto.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/plane.jpg" class="galImg"> <img src="graphics/plane.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Bruce.jpg" class="galImg"> <img src="graphics/Bruce.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/bandTour.jpg" class="galImg"> <img src="graphics/bandTour.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Nicko.jpg" class="galImg"> <img src="graphics/Nicko.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/concert.jpg" class="galImg"> <img src="graphics/concert.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/Dave.jpg" class="galImg"> <img src="graphics/Dave.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/BruceSinging.jpg" class="galImg"> <img src="graphics/BruceSinging.jpg" class="mini"/> </a>
+            </div>          
+        </div>
+        <div class="col-sm-6 photo">             
+            <div id="mainPhoto">
+                <img src="graphics/1.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" />
+            </div>
+        </div>      
     </div>
-
-    <div id="gallery">
-    <div id="mainPhoto">
-        <img src="graphics/1.jpg" class="big" style="width:100%; height:auto;" />
-    </div>
-    <div>
-        <a href="#" rel="graphics/1.jpg" class="galImg"> <img src="graphics/1.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/2.jpg" class="galImg"> <img src="graphics/2.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/3.jpg" class="galImg"> <img src="graphics/3.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/4.jpg" class="galImg"> <img src="graphics/4.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/5.jpg" class="galImg"> <img src="graphics/5.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/6.jpg" class="galImg"> <img src="graphics/6.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/Adrian.jpg" class="galImg"> <img src="graphics/Adrian.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/8.jpg" class="galImg"> <img src="graphics/8.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/8.jpg" class="galImg"> <img src="graphics/8.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/Bruce.jpg" class="galImg"> <img src="graphics/Bruce.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/8.jpg" class="galImg"> <img src="graphics/8.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/Nicko.jpg" class="galImg"> <img src="graphics/Nicko.jpg" class="mini"/> </a>
-        <a href="#" rel="graphics/8.jpg" class="galImg"> <img src="graphics/8.jpg" class="mini"/> </a>
-    </div>
-</div>
-
-    <div class="col-sm-4 photo">
-      <h3>Iron Maiden</h3>
-      <p>angielski zespół heavymetalowy pochodzący z Leyton, Wschodniego Londynu, założony 25 grudnia 1975 roku przez 
-      basistę i głównego kompozytora Steve’a Harrisa. „Żelazna Dziewica” uważana jest za jeden z najwybitniejszych i 
-      najpopularniejszych zespołów w gatunku oraz jeden z najlepszych, a zarazem najbardziej wpływowych zespołów koncertowych
-       w historii rocka. Twórczość grupy stanowiła wzorzec dalszej ewolucji współczesnego metalu i heavy rocka.  </p>            
-    </div>
-  </div>
- 
+    
 </div>
 
 <div class="footer">
