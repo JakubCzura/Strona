@@ -36,8 +36,7 @@
         <div class="col-sm-6 photo">
             <div>
             <h2>Iron Maiden wyrusza w trasę!</h2>
-            <h4>Nie przegapcie okazji na niezapomniany koncert!</h4>
-            
+            <h4>Nie przegapcie okazji na niezapomniany koncert!</h4>           
                 <p>2022 LEGACY OF THE BEAST TOUR:</p>
 
                 <p>Czerwiec 04 - Finland Hyvinkää Rockfest</p>
@@ -52,7 +51,7 @@
                 <p>Czerwiec 30 - Switzerland Zurich Hallenstadion </p>
 
                 <p>Lipiec 02 - Germany Cologne Rhein-Energie-Stadium </p>
-                <p>Lipiec 04 - Germany Berlin Waldbühne)</p>
+                <p>Lipiec 04 - Germany Berlin Waldbühne</p>
                 <p>Lipiec 07 - Italy Bologna Sonic Park</p>
                 <p>Lipiec 09 - Germany Stuttgart Cannstatter Wasen</p>
                 <p>Lipiec 10 - Austria Wiener Neustadt Stadium Open-Air</p>
@@ -61,18 +60,16 @@
                 <p>Lipiec 24 - Poland Warsaw PGE Narodowy</p>
                 <p>Lipiec 26 - Germany Frankfurt Deutsche Bank Park</p>
                 <p>Lipiec 29 - Spain Barcelona Olympic Stadium</p>
-                <p>Lipiec 31 - Portugal Lisbon Estadio Nacional</p>
-              
+                <p>Lipiec 31 - Portugal Lisbon Estadio Nacional</p>             
             </div>          
         </div>
         <div class="col-sm-6 photo">             
             <div id="mainPhoto">
-                <img src="graphics/bandTour.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" />
-                <img src="graphics/tourPhoto.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" />
+                <img src="graphics/bandTour.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" alt="zdjęcie z trasy"/>
+                <img src="graphics/tourPhoto.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" alt="zdjęcie z trasy"/>
             </div>
         </div>      
-    </div>
-    
+    </div>   
 </div>
 
 <div class="footer">

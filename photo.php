@@ -35,26 +35,26 @@
         </div>
         <div class="col-sm-6 photo">
             <div>
-                <a href="#" rel="graphics/acesHigh.jpg" class="galImg"> <img src="graphics/acesHigh.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/Band1982.jpg" class="galImg"> <img src="graphics/Band1982.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/BruceOnStage.jpg" class="galImg"> <img src="graphics/BruceOnStage.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/IronMaidenSklad.jpg" class="galImg"> <img src="graphics/IronMaidenSklad.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/Janek.jpg" class="galImg"> <img src="graphics/Janek.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/Steve.jpg" class="galImg"> <img src="graphics/Steve.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/Adrian.jpg" class="galImg"> <img src="graphics/Adrian.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/tourPhoto.jpg" class="galImg"> <img src="graphics/tourPhoto.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/plane.jpg" class="galImg"> <img src="graphics/plane.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/Bruce.jpg" class="galImg"> <img src="graphics/Bruce.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/bandTour.jpg" class="galImg"> <img src="graphics/bandTour.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/Nicko.jpg" class="galImg"> <img src="graphics/Nicko.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/concert.jpg" class="galImg"> <img src="graphics/concert.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/Dave.jpg" class="galImg"> <img src="graphics/Dave.jpg" class="mini"/> </a>
-                <a href="#" rel="graphics/BruceSinging.jpg" class="galImg"> <img src="graphics/BruceSinging.jpg" class="mini"/> </a>
+                <a href="#" rel="graphics/acesHigh.jpg" class="galImg"> <img src="graphics/acesHigh.jpg" class="mini" alt="zdjęcie zespołu" /> </a>
+                <a href="#" rel="graphics/Band1982.jpg" class="galImg"> <img src="graphics/Band1982.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/BruceOnStage.jpg" class="galImg"> <img src="graphics/BruceOnStage.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/IronMaidenSklad.jpg" class="galImg"> <img src="graphics/IronMaidenSklad.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/Janek.jpg" class="galImg"> <img src="graphics/Janek.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/Steve.jpg" class="galImg"> <img src="graphics/Steve.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/Adrian.jpg" class="galImg"> <img src="graphics/Adrian.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/tourPhoto.jpg" class="galImg"> <img src="graphics/tourPhoto.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/plane.jpg" class="galImg"> <img src="graphics/plane.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/Bruce.jpg" class="galImg"> <img src="graphics/Bruce.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/bandTour.jpg" class="galImg"> <img src="graphics/bandTour.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/Nicko.jpg" class="galImg"> <img src="graphics/Nicko.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/concert.jpg" class="galImg"> <img src="graphics/concert.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/Dave.jpg" class="galImg"> <img src="graphics/Dave.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
+                <a href="#" rel="graphics/BruceSinging.jpg" class="galImg"> <img src="graphics/BruceSinging.jpg" class="mini" alt="zdjęcie zespołu"/> </a>
             </div>          
         </div>
         <div class="col-sm-6 photo">             
             <div id="mainPhoto">
-                <img src="graphics/1.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" />
+                <img src="graphics/1.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" alt="zdjęcie zespołu" />
             </div>
         </div>      
     </div>   
