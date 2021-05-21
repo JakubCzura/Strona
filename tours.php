@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Iron Maiden</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
@@ -10,120 +10,69 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  -->
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
   <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+  <script src="script.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
-<body class="body">
+
+<body class="body" onload="getTime()">
 
 <div class="jumbotron-text-center">
-  <h1>Strona dla fanów muzyki</h1>
-  <p>Prezentujemy albumy Iron Maiden!</p> 
+  <h1>Witaj na stronie fanów Iron Maiden</h1>
+  <p>Zapraszamy do lektury i posłuchania ich piosenek</p> 
 </div>
   
 <div class="container">
-  <div class="row"> 
-    <div id="navbar">
-      <a class="active" href="index.php">Strona główna</a>
+    <div id="currentTime"></div>
+    <div class="row"> 
+        <div id="navbar">
+        <a class="active" href="index.php">Strona główna</a>
       <a href="news.php">Aktualności</a>      
       <a href="albums.php">Albumy</a> 
       <a href="tours.php">Trasa</a> 
+      <a href="photo.php">Galeria zdjęć</a> 
       <a href="https://www.facebook.com/">Kontakt</a> 
+        </div>
+        <div class="col-sm-6 photo">
+            <div>
+            <h2>Iron Maiden wyrusza w trasę!</h2>
+            <h4>Nie przegapcie okazji na niezapomniany koncert!</h4>
+            
+                <p>2022 LEGACY OF THE BEAST TOUR:</p>
+
+                <p>Czerwiec 04 - Finland Hyvinkää Rockfest</p>
+                <p>Czerwiec 11 - UK Donington Download Festival</p> 
+                <p>Czerwiec 13 - N.Ire Belfast Ormeau Park Belsonic Festival</p>
+                <p>Czerwiec 16 - Belgium, Dessel Graspop</p>
+                <p>Czerwiec 18 - Denmark, Copenhagen, Copenhell</p>
+                <p>Czerwiec 20 - Czech Republic Prague Sinobo Stadium</p>
+                <p>Czerwiec 23 - Norway Oslo Tons Of Rock</p>
+                <p>Czerwiec 26 - France Paris La Defense Arena</p>
+                <p>Czerwiec 27 - Netherlands Arnhem Gelredome</p>
+                <p>Czerwiec 30 - Switzerland Zurich Hallenstadion </p>
+
+                <p>Lipiec 02 - Germany Cologne Rhein-Energie-Stadium </p>
+                <p>Lipiec 04 - Germany Berlin Waldbühne)</p>
+                <p>Lipiec 07 - Italy Bologna Sonic Park</p>
+                <p>Lipiec 09 - Germany Stuttgart Cannstatter Wasen</p>
+                <p>Lipiec 10 - Austria Wiener Neustadt Stadium Open-Air</p>
+                <p>Lipiec 20 - Germany Bremen Bürgerweide</p>
+                <p>Lipiec 22 - Sweden Gothenburg Ullevi Stadium</p>
+                <p>Lipiec 24 - Poland Warsaw PGE Narodowy</p>
+                <p>Lipiec 26 - Germany Frankfurt Deutsche Bank Park</p>
+                <p>Lipiec 29 - Spain Barcelona Olympic Stadium</p>
+                <p>Lipiec 31 - Portugal Lisbon Estadio Nacional</p>
+              
+            </div>          
+        </div>
+        <div class="col-sm-6 photo">             
+            <div id="mainPhoto">
+                <img src="graphics/bandTour.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" />
+                <img src="graphics/tourPhoto.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" />
+            </div>
+        </div>      
     </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Iron Maiden</h3>
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>        
-      <img src="graphics/1.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Killers</h3>  
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>        
-      <img src="graphics/2.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>The Number of the beast</h3> 
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p> 
-      <img src="graphics/3.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Piece of Mind</h3> 
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>         
-      <img src="graphics/4.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Powerslave</h3>
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>          
-      <img src="graphics/5.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Somewhere in Time</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/6.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Seventh Son of a Seventh Son</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/7.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>No Prayer for the Dying</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/8.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Fear of the Dark</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/9.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>The X Factor</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/10.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>Virtual XI</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/11.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>Brave new World</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/12.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>Dance of Death</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/13.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>A Matter of Life and Death</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/14.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>The Final Frontier</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/15.JPG" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>The Book of Souls</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/16.JPG" alt="iron maiden first album" width="200"> 
-    </div>
-  </div>
+    
 </div>
 
 <div class="footer">
