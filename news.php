@@ -78,6 +78,20 @@
             </div>          
         </div>
 
+        <div class="col-sm-6 photo">
+            <div>
+                <h2>Aukcje charytatywne Roda</h2>
+                <h4>Sukces w obdarowywaniu pomocą</h4>  
+                <img src="graphics/charity.jpg" class="big" style="width: 70%; height:auto; max-height: 600px;" alt="zdjęcie z trasy"/>          
+                <p>Wielkie podziękowania dla wszystkich, którzy wzieli udział w aukcji charytatywnej Roda Smallwooda. 
+                Dzięki waszej ogromnej hojności udało się zebrać ponad 12.000£ w ostatnim miesiący. Pieniądze zostaną
+                przekazane na dziecięce organizacje niosące im pomoc, Nordoff Robbins, ChildLine oraz Teenage Cancer Trust.
+                Dzięki dla zespołu za podpisanie wszystkich rzeczy i przekazanie na przykład zegarka pilota Bruce'a. Zespół
+                zapowiada kolejne licytacje, aby razem nieść dobro. Zachęcamy do udziału, na pewno wkrótce poinformują o możliwości pomocy
+                dla najbardziej potrzebujących. Dzięki jeszcze raz wszystkim za pomoc, za to że przyłączacie się do tej pięknej 
+                inicjatywy. Czyńcie dobro i z radością kochajcie każdego bliźniego!</p>             
+            </div>          
+        </div>
     </div>   
 </div>
 
