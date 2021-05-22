@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Iron Maiden</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
@@ -10,122 +10,77 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  -->
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
   <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+  <script src="script.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
-<body class="body">
+
+<body class="body" onload="getTime()">
 
 <div class="jumbotron-text-center">
-  <h1>Strona dla fanów muzyki</h1>
-  <p>Prezentujemy albumy Iron Maiden!</p> 
+  <h1>Witaj na stronie fanów Iron Maiden</h1>
+  <p>Zapraszamy do lektury i posłuchania ich piosenek</p> 
 </div>
   
 <div class="container">
-  <div class="row"> 
-    <div id="navbar">
-      <a class="active" href="index.php">Strona główna</a>
-      <a href="news.php">Aktualności</a>      
-      <a href="albums.php">Albumy</a> 
-      <a href="tours.php">Trasa</a> 
-      <a href="https://www.facebook.com/">Kontakt</a> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Iron Maiden</h3>
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>        
-      <img src="graphics/1.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Killers</h3>  
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>        
-      <img src="graphics/2.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>The Number of the beast</h3> 
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p> 
-      <img src="graphics/3.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Piece of Mind</h3> 
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>         
-      <img src="graphics/4.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Powerslave</h3>
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>          
-      <img src="graphics/5.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Somewhere in Time</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/6.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Seventh Son of a Seventh Son</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/7.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>No Prayer for the Dying</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/8.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 zdjecie">
-      <h3>Fear of the Dark</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/9.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>The X Factor</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/10.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>Virtual XI</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/11.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>Brave new World</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/12.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>Dance of Death</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/13.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>A Matter of Life and Death</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/14.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>The Final Frontier</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/15.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 zdjecie">
-      <h3>The Book of Souls</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/16.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-  </div>
+    <div id="currentTime"></div>
+    <div class="row"> 
+        <div id="navbar">
+        <a class="active" href="index.php">Strona główna</a>
+        <a href="news.php">Aktualności</a>      
+        <a href="albums.php">Albumy</a> 
+        <a href="tours.php">Trasa</a> 
+        <a href="photo.php">Galeria zdjęć</a> 
+        <a href="https://www.facebook.com/">Kontakt</a> 
+        </div>
+        <div class="col-sm-6 photo">
+            <div>
+                <h2>Wieczór z Brucem Dickinsonem</h2>
+                <h4>Wokalista opowie o trasach Iron Maiden od kuchni</h4>  
+                <img src="graphics/BruceTour.jpg" class="big" style="width: 50%; height:auto; max-height: 600px;" alt="zdjęcie z trasy"/>          
+                <p>Bruce znany jest nie tylko ze śpiewania, jest on również pilotem
+                i podczas tras zespołu zasiada za sterami Ed Force One.
+                Tym razem zaprasza na wieczorne spotkania, podczas to których
+                opowie między innymi o tym jak to jest pilotować tak ciężkie maszyny,
+                jak wygląda przygotowanie zespołu i grupy do wyjazdu w trasę, a także
+                czy zespół planuje wydać kolejny album.</p>             
+            </div>          
+        </div>
+        
+        <div class="col-sm-6 photo">
+            <div>
+                <h2>Heavy Metal Truants</h2>
+                <h4>Bruce Dickinson dołącza do akcji</h4>  
+                <img src="graphics/heavymetalTruants.jpg" class="big" style="width: 70%; height:auto; max-height: 600px;" alt="zdjęcie z trasy"/>          
+                <p>Od 2013 roku Heavy Metal Truants przemierzają na rowerach trasę
+                od Londynu do Castle Donington, a to wszystko, aby zebrać pieniądze
+                dla potrzebujących. Akcja wspiera takie akcje charytatywne jak
+                Nordoff Robbins, Childline, Teenage Cancer Trust i Save the Children.
+                Organizacje i ich podopieczni zostali dotkliwie pokrzywdzeni przez pandemię koronawirusa,
+                więc wszyscy zbieramy siły, wsiadamy na rowery i jedziemy zbierać pieniądze
+                dla najbardziej potrzebujących. Heavy Metal Truants zawita na Download Festiwal,
+                gdzie zagra również Iron Maiden. Przez całą akcję wszyscy możemy się zjednoczyć
+                i pomóc tym, którzy naprawdę są w ciężkiej sytuacji zdrowotnej. Do dzieła!</p>             
+            </div>          
+        </div>
+
+        <div class="col-sm-6 photo">
+            <div>
+                <h2>Iron Maiden wydaje własne piwo</h2>
+                <h4>Skosztuj pysznego napoju</h4>  
+                <img src="graphics/beer.jpg" class="big" style="width: 50%; height:auto; max-height: 600px;" alt="zdjęcie z trasy"/>          
+                <p>Zespół wydaje piwo pod swoją nazwą "Trooper", które produkowane będzie
+                przez lokalny browar Robinsons Brewery. Napój charakteryzować się ma klasycznym angielskim 
+                smakiem z 4.1% zawartością alkoholu. Część dochodu ze sprzedaży ekipa zamierza przeznaczyć
+                na cele charytatywne. W pracach nad produkcją i akcją pomocy pomaga Help for Heroes, angielska
+                organizacja charytatywna, która wspiera w rekonwalescencji personel, który
+                został ranny lub kontuzjowany podczas pracy, a także silnie wspiera ich rodziny.</p>             
+            </div>          
+        </div>
+
+    </div>   
 </div>
- 
+
 <div class="footer">
   <footer id="foot">
     <?php echo "Dziękujemy za odwiedziny" ?>
