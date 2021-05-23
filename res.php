@@ -48,7 +48,6 @@
     ?>
   </div> 
 
-  
   <div class="row"> 
       <div id="navbar">
       <a class="active" href="index.php">Strona główna</a>
@@ -163,8 +162,6 @@
     <p>Życzymy miłego dnia</p>
   </footer> 
 </div>
-
-
 
 <script>
 window.onscroll = function() {myFunction()};

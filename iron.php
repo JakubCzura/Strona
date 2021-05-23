@@ -78,7 +78,21 @@
   
   
   <div class="youtubeLink">
-    
+    <h2>Co słuchacze myślą o albumach Iron Maiden:</h2>
+    <?php
+      include_once 'database.php';
+      
+      $sql = "SELECT * FROM Comments";
+
+      $results = mysqli_query($conn, $sql);
+      if(mysqli_num_rows($results) > 0)
+      {
+        while($row = mysqli_fetch_assoc($results))
+        {
+          echo "Imie: ". $row['Name']. " Nazwisko: ". $row['LastName']. " Opinia: ". $row['Comment']. "<br>";
+        }
+      }
+    ?>
   </div>  
   
   
