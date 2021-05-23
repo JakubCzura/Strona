@@ -51,7 +51,7 @@
       <div class="col-sm-12">
         <section>
           <h3> Ocena albumu</h3>
-            <form action="res.php" method="GET" oninput="x.value=parseInt(age.value)" autocomplete="off">
+            <form action="res.php" method="GET" autocomplete="off">
               <div class="row">
                 <div class="col">
                   <label for="f_name" class="form-label"> Imię </label>
@@ -67,8 +67,7 @@
               <textarea name="message" placeholder="Prosimy o kilka zdań o albumie" rows="5" cols="20"></textarea> 
               </div>
               <div>
-                <input type="submit" class="btn btn-success" value="Zapisz">
-                <button> Zapisz </button>
+                <input type="submit" class="btn btn-success" value="Zapisz">               
               </div>
             </form>
         </section>
