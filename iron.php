@@ -45,14 +45,45 @@
     <div class="col-sm-4 photo">             
       <img src="graphics/1.jpg" alt="iron maiden album" style="width:100%; height:auto;">
     </div>
-    <div class="col-sm-4 photo">
     
+    
+    <div class="col-sm-4 photo">
+      <div class="col-sm-12">
+        <section>
+          <h3> Ocena albumu</h3>
+            <form action="res.php" method="GET" oninput="x.value=parseInt(age.value)" autocomplete="off">
+              <div class="row">
+                <div class="col">
+                  <label for="f_name" class="form-label"> Imię </label>
+                  <input type="text" name="f_name" class="form-control" id="f_name" autofocus>
+                </div>
+                <div class="col">
+                  <label for="l_name" class="form-label">Nazwisko</label>
+                  <input type="text" name="l_name" class="form-control" id="l_name">
+                </div>
+              </div>                     
+              <div>
+              Opinia <br>
+              <textarea name="message" placeholder="Prosimy o kilka zdań o albumie" rows="5" cols="20"></textarea> 
+              </div>
+              <div>
+                <input type="submit" class="btn btn-success" value="Zapisz">
+                <button> Zapisz </button>
+              </div>
+            </form>
+        </section>
+      </div>
     </div>   
     
   </div>
+  
+  
   <div class="youtubeLink">
     
   </div>  
+  
+  
+  
   <div class="youtubeLink">
     <h2> Link do posłuchania w YouTube:
       <br/>
