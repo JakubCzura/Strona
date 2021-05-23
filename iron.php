@@ -46,17 +46,13 @@
       <img src="graphics/1.jpg" alt="iron maiden album" style="width:100%; height:auto;">
     </div>
     <div class="col-sm-4 photo">
-    <ul class="list">
-      <li> <h3>Media społecznościowe</h3>          
-            <a href="https://www.facebook.com/ironmaiden"> <img src="graphics/facebook.jpg" alt="facebook" width="50" height="50"/> </a> <br/>
-            <a href="https://www.youtube.com/channel/UCaisXKBdNOYqGr2qOXCLchQ"> <img src="graphics/youtube2.jpg" alt="youtube" width="50" height="50"/> </a> <br/>
-            <a href="https://www.instagram.com/ironmaiden/?hl=pl"> <img src="graphics/instagram2.jpg" alt="instagram" width="50" height="50"/> </a>
-      </li>
-      <li> <h3>Strona zespołu</h3> <a href="https://ironmaiden.com"> <img src="graphics/stronaglowna.jpg" alt="strona zespołu" width="200" height="45" /> </a> </li>
-      <li> <h3>Strona z biletami</h3> <a href="https://www.ebilet.pl"> <img src="graphics/ebilet.jpg" alt="e bilet" width="200" height="45" /> </a> </li>
-    </ul> 
+    
     </div>   
+    
   </div>
+  <div class="youtubeLink">
+    
+  </div>  
   <div class="youtubeLink">
     <h2> Link do posłuchania w YouTube:
       <br/>
