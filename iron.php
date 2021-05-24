@@ -78,21 +78,44 @@
   
   
   <div class="youtubeLink">
-    <h2>Co słuchacze myślą o albumach Iron Maiden:</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nr</th><th>Imie</th><th>Nazwisko</th><th>Opinia o albumach</th>
+      </tr>
+    </thead>
+    <tbody>
     <?php
       include_once 'database.php';
       
-      $sql = "SELECT * FROM Comments";
-
+      $sql = "SELECT Name, LastName, Comment FROM Comments";
+      $nr = 0 ;
       $results = mysqli_query($conn, $sql);
       if(mysqli_num_rows($results) > 0)
       {
         while($row = mysqli_fetch_assoc($results))
-        {
-          echo "Imie: ". $row['Name']. " Nazwisko: ". $row['LastName']. " Opinia: ". $row['Comment']. "<br>";
+        {?>
+        <tr>
+          <td> <?php echo $nr; ?></td>
+          <td> <?php echo $row['Name']; ?></td>
+          <td> <?php echo $row['LastName']; ?></td>
+          <td> <?php echo $row['Comment']; ?></td>
+        </tr>
+          <!--echo "Imie: ". $row['Name']. " Nazwisko: ". $row['LastName']. " Opinia: ". $row['Comment']. "<br>";-->
+          <?php
+          $nr++;
         }
       }
+      else
+      {
+        echo "Brak rekordów <br>";
+      }
     ?>
+    </tbody>
+  </table>
+
+    <!--<h2>Co słuchacze myślą o albumach Iron Maiden:</h2>-->
+    
   </div>  
   
   
