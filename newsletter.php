@@ -45,9 +45,9 @@
     include_once 'database.php';
     $name = $_GET['f_name'];
     $lastName = $_GET['l_name'];
-    $email = $GET['e_mail'];
-    $city = $GET['city_c'];
-    $age = $GET['age'];
+    $email = $_GET['e_mail'];
+    $city = $_GET['city_c'];
+    $age = $_GET['age'];
     $message = $_GET['message'];
 
     if(!empty($name) && !empty($lastName) && !empty($email) && !empty($city) && !empty($age) && !empty($message))
