@@ -40,55 +40,7 @@
     allowfullscreen></iframe>
     </div>
     <div class="photo">
-    <div class="col-12">
-                <section>
-                    <h3> Newsletter</h3>
-                    <h4> Zapisz się, aby otrzymywać informacje na bieżąco </h4>
-                    <form action="newsletter.php" method="GET" oninput="x.value=parseInt(age.value)"
-                            autocomplete="off">
-                        <div class="row">
-                            <div class="col">
-                                <label for="f_name" class="form-label"> Imię </label>
-                                <input type="text" name="f_name" class="form-control" id="f_name" autofocus>
-                            </div>
-                            <div class="col">
-                                <label for="l_name" class="form-label">Nazwisko</label>
-                                <input type="text" name="l_name" class="form-control" id="l_name">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col"> 
-                                <label for="e_mail" class="form-label">E-mail</label>
-                                <input type="email" name="e_mail" class="form-control" id="e_mail" >
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <label for="city_c" class="form-label"> Miasto </label>  
-                                <input type="text" name="city" class="form-control" id="city_c" list="city">
-                                <datalist id="city">
-                                    <option value="Krakow">Kraków</option>
-                                    <option value="Poznan">Poznań</option>
-                                    <option value="Warszawa">Warszawa</option>
-                                    <option value="Kielce">Kielce</option>
-                                    <option value="Radom">Radom</option>
-                                </datalist> 
-                            </div>
-                            <div class="col"> 
-                                <label for="age" class="form-label">Wiek</label>
-                                <input type="text" name="age" class="form-control" id="age" >
-                            </div>
-                        </div>
-                        <div>
-                            Wiadomość dla zespołu <br>
-                            <textarea name="message" placeholder="Wiadomość" rows="5" cols="20"></textarea> 
-                        </div>
-                        <div>
-                            <input type="submit" class="btn btn-success" value="Zapisz">
-                        </div>
-                    </form>
-                </section>
-            </div>
+      Newsletter
     </div>
 
 
