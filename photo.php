@@ -54,7 +54,7 @@
         </div>
         <div class="col-sm-6 photo">             
             <div id="mainPhoto">
-                <img src="graphics/1.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" alt="zdjęcie zespołu" />
+                <img src="graphics/acesHigh.jpg" class="big" style="width: 100%; height:auto; max-height: 600px;" alt="zdjęcie zespołu" />
             </div>
         </div>      
     </div>   

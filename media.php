@@ -41,6 +41,7 @@
       </li>
       <li> <h3>Strona zespołu</h3> <a href="https://ironmaiden.com"> <img src="graphics/stronaglowna.jpg" alt="strona zespołu" width="200" height="45" /> </a> </li>
       <li> <h3>Strona z biletami</h3> <a href="https://www.ebilet.pl"> <img src="graphics/ebilet.jpg" alt="e bilet" width="200" height="45" /> </a> </li>
+      <li> <img src="graphics/IronMaidenSklad.jpg" alt ="Zdjęcie zespołu" style="width:50%; height:auto;" /> </li>
     </ul> 
      
     </div>
