@@ -30,21 +30,24 @@
     $lastName = $_GET['l_name'];
     $message = $_GET['message'];
 
-    $sql = "INSERT INTO Comments (Name, LastName, Comment) VALUES ('$name', '$lastName', '$message')";
+    if(!empty($name) && !empty($lastName) && !empty($message))
+    {
+      $sql = "INSERT INTO Comments (Name, LastName, Comment) VALUES ('$name', '$lastName', '$message')";
 
-    if(mysqli_query($conn, $sql))
-    {
-        echo "Dziękujemy za dodanie opinii<br>";
-    }
-    else
-    {
-        echo "Błąd ".mysqli_error($conn). "<br>";
-    }
-    mysqli_close($conn);
-    
-    echo "Imię: ".$_GET['f_name']."<br>";
-    echo "Nazwisko: ".$_GET['l_name']."<br>";
-    echo "Opinia o albumie: ".$_GET['message']."<br>";
+      if(mysqli_query($conn, $sql))
+      {
+          echo "Dziękujemy za dodanie opinii<br>";
+      }
+      else
+      {
+          echo "Błąd ".mysqli_error($conn). "<br>";
+      }
+      mysqli_close($conn);
+      
+      echo "Imię: ".$_GET['f_name']."<br>";
+      echo "Nazwisko: ".$_GET['l_name']."<br>";
+      echo "Opinia o albumie: ".$_GET['message']."<br>";
+    }  
     ?>
   </div> 
 
