@@ -40,8 +40,39 @@
     allowfullscreen></iframe>
     </div>
     <div class="photo">
-      Newsletter
-    </div>
+    
+    <?php
+    include_once 'database.php';
+    $name = $_GET['f_name'];
+    $lastName = $_GET['l_name'];
+    $email = $GET['e_mail'];
+    $city = $GET['city_c'];
+    $age = $GET['age'];
+    $message = $_GET['message'];
+
+    if(!empty($name) && !empty($lastName) && !empty($email) && !empty($city) && !empty($age) && !empty($message))
+    {
+      $sql = "INSERT INTO Newsletter (Name, LastName, Email, City, Age, Message) VALUES ('$name', '$lastName', '$email', '$city', '$age', '$message')";
+      if(mysqli_query($conn, $sql))
+      {
+          echo "Dziękujemy za przystąpienie do newslettera<br>";
+      }
+      else
+      {
+          echo "Błąd ".mysqli_error($conn). "<br>";
+      }
+      mysqli_close($conn);
+      
+      echo "Imię: ".$_GET['f_name']."<br>";
+      echo "Nazwisko: ".$_GET['l_name']."<br>";
+      echo "Email: ".$_GET['e_mail']."<br>";
+      echo "Miasto: ".$_GET['city_c']."<br>";
+      echo "Wiek: ".$_GET['age']."<br>";
+      echo "Wiadomość dla zespołu: ".$_GET['message']."<br>";
+    }  
+    ?>
+    </div> 
+    
 
 
     <div class="col-sm-4 photo">

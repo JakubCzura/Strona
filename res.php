@@ -49,7 +49,7 @@
       echo "Opinia o albumie: ".$_GET['message']."<br>";
     }  
     ?>
-  </div> 
+    </div> 
 
   <div class="row"> 
       <div id="navbar">
