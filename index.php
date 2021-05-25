@@ -31,12 +31,19 @@
       <a href="photo.php">Galeria zdjęć</a> 
       <a href="media.php">Kontakt</a> 
     </div>
-    <div class="col-sm-4 photo">
-      <h3>Iron Maiden</h3>
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>        
-      <img src="graphics/1.jpg" alt="iron maiden first album" width="200"> 
+    <div class="photo">        
+      <img src="graphics/tour2022.jpg" alt="Trasa Iron Maiden" style="width:100%; height:auto;"> 
     </div>
+    <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gb-ODJRnR00" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+    </div>
+    <div class="photo">
+      Newsletter
+    </div>
+
+
     <div class="col-sm-4 photo">
       <h3>Killers</h3>  
       <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
