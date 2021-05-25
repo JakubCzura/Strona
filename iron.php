@@ -94,7 +94,8 @@
       if(mysqli_num_rows($results) > 0)
       {
         while($row = mysqli_fetch_assoc($results))
-        {?>
+        {
+    ?>
         <tr>
           <td> <?php echo $nr; ?></td>
           <td> <?php echo $row['Name']; ?></td>
@@ -102,7 +103,7 @@
           <td> <?php echo $row['Comment']; ?></td>
         </tr>
           <!--echo "Imie: ". $row['Name']. " Nazwisko: ". $row['LastName']. " Opinia: ". $row['Comment']. "<br>";-->
-          <?php
+    <?php
           $nr++;
         }
       }
