@@ -16,8 +16,8 @@
 <body class="body" onload="getTime()">
 
 <div class="jumbotron-text-center">
-  <h1>Strona dla fanów muzyki</h1>
-  <p>Prezentujemy albumy Iron Maiden!</p> 
+  <h1>Witaj na stronie fanów Iron Maiden</h1>
+  <p>Zapraszamy do lektury i posłuchania ich piosenek</p> 
 </div>
   
 <div class="container">

@@ -16,8 +16,8 @@
 <body class="body" onload="getTime()">
 
 <div class="jumbotron-text-center">
-  <h1>Strona dla fanów muzyki</h1>
-  <p>Prezentujemy albumy Iron Maiden!</p> 
+  <h1>Witaj na stronie fanów Iron Maiden</h1>
+  <p>Zapraszamy do lektury i posłuchania ich piosenek</p> 
 </div>
   
 <div class="container">
@@ -55,11 +55,11 @@
       $sql = "INSERT INTO Newsletter (Name, LastName, Email, City, Age, Message) VALUES ('$name', '$lastName', '$email', '$city', '$age', '$message')";
       if(mysqli_query($conn, $sql))
       {
-          echo "Dziękujemy za przystąpienie do newslettera<br>";
+        echo "Dziękujemy za przystąpienie do newslettera<br>";
       }
       else
       {
-          echo "Błąd ".mysqli_error($conn). "<br>";
+        echo "Błąd ".mysqli_error($conn). "<br>";
       }
       mysqli_close($conn);
       
@@ -69,101 +69,13 @@
       echo "Miasto: ".$_GET['city_c']."<br>";
       echo "Wiek: ".$_GET['age']."<br>";
       echo "Wiadomość dla zespołu: ".$_GET['message']."<br>";
+    }
+    else
+    {
+      echo "Prawdopodobnie któreś pole nie zostało uzupełnione <br>";
+      echo "Prosimy o wypełnienie formularza jeszcze raz :) <br>";
     }  
     ?>
-    </div> 
-    
-
-
-    <div class="col-sm-4 photo">
-      <h3>Killers</h3>  
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>        
-      <img src="graphics/2.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 photo">
-      <h3>The Number of the beast</h3> 
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p> 
-      <img src="graphics/3.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 photo">
-      <h3>Piece of Mind</h3> 
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>         
-      <img src="graphics/4.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 photo">
-      <h3>Powerslave</h3>
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>          
-      <img src="graphics/5.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 photo">
-      <h3>Somewhere in Time</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/6.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 photo">
-      <h3>Seventh Son of a Seventh Son</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/7.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 photo">
-      <h3>No Prayer for the Dying</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/8.jpg" alt="iron maiden first album" width="200"> 
-    </div>
-    <div class="col-sm-4 photo">
-      <h3>Fear of the Dark</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/9.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 photo">
-      <h3>The X Factor</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/10.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 photo">
-      <h3>Virtual XI</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/11.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 photo">
-      <h3>Brave new World</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/12.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 photo">
-      <h3>Dance of Death</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/13.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 photo">
-      <h3>A Matter of Life and Death</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/14.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 photo">
-      <h3>The Final Frontier</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/15.jpg" alt="iron maiden first album" width="200"> 
-    </div> 
-    <div class="col-sm-4 photo">
-      <h3>The Book of Souls</h3>   
-      <p>Oto album Iron Maiden, życzymy miłego słuchania. Mamy nadzieję, że się Państwu podoba 
-        i miło umila wam czas w ten miły dzień. Miłego słuchania.</p>       
-      <img src="graphics/16.jpg" alt="iron maiden first album" width="200"> 
     </div>
   </div>
 </div>
