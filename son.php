@@ -126,7 +126,7 @@
   <div class="youtubeLink">
     <h2> Link do posłuchania w YouTube:
       <br/>
-      <a href="https://www.youtube.com/watch?v=7DcVwd31uC0&list=OLAK5uy_misJV8zMkwu8-oBoebFKPsdE_LDrdq-xA " target="_blank" title="Kliknij, by otworzyć w YouTube">  
+      <a href="https://www.youtube.com/watch?v=kvh-aU7KCFY&list=OLAK5uy_lV__j36LdAy7n29IAopF2A8F_-TKYAiQM" target="_blank" title="Kliknij, by otworzyć w YouTube">  
       <img src="graphics/youtube.jpg" alt="link do youtube'a" width=300 height=50 /> </a> <!-- target="blank" otwiera w nowym oknie -->
     </h2>
   </div>  
